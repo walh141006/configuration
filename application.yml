@@ -1,0 +1,26 @@
+spring:
+   profiles:
+    active: test
+---
+spring:
+  profiles: test
+  application: 
+    name: walh01
+server:
+  port: 8080
+---
+spring:
+  profiles: test1
+  application: 
+    name: walh02
+server:
+  port: 8081
+---
+spring:
+  profiles: test2
+  application: 
+    name: walh03
+server:
+  port: 8082
+  
+  
